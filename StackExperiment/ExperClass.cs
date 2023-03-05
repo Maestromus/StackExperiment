@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StackExperiment
 {
-    public class ExperClass
+    public static class ExperClass
     {
 
         public static bool CheckBrackets(string input)

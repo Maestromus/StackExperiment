@@ -1,7 +1,7 @@
 ﻿
 using StackExperiment;
 
-public class ReadFromFile : ExperClass
+public static class ReadFromFile 
 {
     static void Main(string[] args)
     {
@@ -19,7 +19,7 @@ public class ReadFromFile : ExperClass
         foreach (string line in lines)
         {
             // Выполняем математическую операцию над примером и выводим результат в консоль
-            Console.WriteLine(line + " = " + CheckBrackets(line));
+            Console.WriteLine(line + " = " + ExperClass.CheckBrackets(line));
         }
 
     }
