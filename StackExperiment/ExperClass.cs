@@ -28,9 +28,7 @@ namespace StackExperiment
 
                     char last = stack.Peek();
 
-                    if ((c == ')' && last == '(') ||
-                        (c == '}' && last == '{') ||
-                        (c == ']' && last == '['))
+                    if ((c == ')' && last == '(') || (c == '}' && last == '{') || (c == ']' && last == '['))
                     {
                         stack.Pop();
                     }
